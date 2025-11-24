@@ -12,23 +12,23 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Waitlist LP Template",
-    default: "Waitlist LP Template",
+    template: "%s | No Smoking App",
+    default: "No Smoking App",
   },
   metadataBase: new URL(await getBaseUrl()),
-  description: "Waitlist LP Template",
+  description: "No Smoking App",
   keywords: [],
   openGraph: {
-    title: "Waitlist LP Template",
-    description: "Waitlist LP Template",
+    title: "No Smoking App",
+    description: "No Smoking App",
     type: "website",
     locale: "ja_JP",
     images: ["/opengraph-image.png", "/opengraph-image.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Waitlist LP Template",
-    description: "Waitlist LP Template",
+    title: "No Smoking App",
+    description: "No Smoking App",
     images: ["/opengraph-image.png", "/opengraph-image.jpg"],
   },
 };
